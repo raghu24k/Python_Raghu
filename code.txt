@@ -1,0 +1,14 @@
+// to run api we use this 
+-- uvicorn FileName:variable_name 
+// to auto reload for file changing 
+-- uvicorn FileName:variable_name  --reload
+
+// Install required packages
+-- pip install fastapi uvicorn
+
+
+//Run on different port
+-- uvicorn main:app --port 5000
+
+//Check if uvicorn is installed
+-- uvicorn --version
