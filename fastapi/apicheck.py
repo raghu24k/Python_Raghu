@@ -26,3 +26,12 @@ def now():
 @apicheck.get("/send/now/query")
 def query():
     return{"Write":"your query is about file "}
+
+@apicheck.get('/hello')
+def hello():
+    return{"Your message": "hi their is someone who lives here!!"}
+
+@apicheck.get("/someone")
+def someone():
+    return{"message":"yes some here lived name rosahn"}
+
