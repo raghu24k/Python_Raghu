@@ -35,3 +35,6 @@ def hello():
 def someone():
     return{"message":"yes some here lived name rosahn"}
 
+@apicheck.get("/home")
+def home():
+    return{"from her":"this is your home"}

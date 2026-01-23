@@ -12,3 +12,10 @@
 
 //Check if uvicorn is installed
 -- uvicorn --version
+
+//to create env 
+python -m ven env_name(filename)
+
+// to activate env
+env_name\Scripts\activate
+        
