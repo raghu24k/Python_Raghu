@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Path
 import json
 
 patient = FastAPI()
@@ -14,7 +14,7 @@ def view():
     return data
 
 @patient.get('/patient/{patient_id}')
-def ViewPatient(patient_id: str):
+def ViewPatient(patient_id: str = Path(...,description="id of the patient in the db", example="p001")):
     # load all the patients
     data = LoadData()
     # Access the list of patients
