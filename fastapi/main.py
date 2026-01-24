@@ -1,10 +1,14 @@
 from fastapi import FastAPI
-app = FastAPI()
-@app.get("/")
-def home():
-    return {"message": "Hello FastAPI"}
+import json
 
+patient = FastAPI()
 
-@app.get("/return")
-def home():
-    return("hey:""i am comeback")
+def LoadData():
+    with open ('patients.json','r') as f:
+        data = json.load(f)
+    return data
+
+@patient.get("/view")
+def view():
+    data = LoadData()
+    return data
