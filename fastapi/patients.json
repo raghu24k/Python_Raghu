@@ -1,7 +1,7 @@
 {
   "patients": [
     {
-      "patient_id": "P001",
+      "patient_id": "p001",
       "name": "Rahul Sharma",
       "age": 28,
       "gender": "Male",
@@ -14,7 +14,7 @@
       "admitted": false
     },
 {
-      "patient_id": "P002",
+      "patient_id": "p002",
       "name": "Anita Verma",
       "age": 35,
       "gender": "Female",
@@ -27,7 +27,7 @@
       "admitted": true
     },
     {
-      "patient_id": "P003",
+      "patient_id": "p003",
       "name": "Rohit Kumar",
       "age": 42,
       "gender": "Male",
