@@ -18,10 +18,8 @@ def ViewPatient(patient_id: str = Path(...,description="id of the patient in the
     # load all the patients
     data = LoadData()
     # Access the list of patients
-    patients = data.get("patients", [])
-    for p in patients:
-        if p.get("patient_id") == patient_id:
-            return p
+    if patient_id in data:
+        return data[patient_id]
     raise HTTPException(status_code = 404, detail="patient not found")
 
 
