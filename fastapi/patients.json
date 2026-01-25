@@ -1,44 +1,60 @@
 {
-  "p001": {
-    "patient_id": "p001",
-    "name": "Rahul Sharma",
-    "age": 28,
-    "gender": "Male",
-    "phone": "9876543210",
-    "height": 66,
-    "email": "rahul.sharma@gmail.com",
-    "address": "Bangalore, Karnataka",
-    "blood_group": "O+",
-    "medical_history": ["Diabetes"],
-    "current_diagnosis": "Fever",
-    "admitted": false
-  },
-  "p002": {
-    "patient_id": "p002",
-    "name": "Anita Verma",
-    "age": 35,
-    "gender": "Female",
-    "phone": "9123456780",
-    "height": 68,
-    "email": "anita.verma@gmail.com",
-    "address": "Delhi",
-    "blood_group": "A+",
-    "medical_history": ["Hypertension"],
-    "current_diagnosis": "Migraine",
-    "admitted": true
-  },
-  "p003": {
-    "patient_id": "p003",
-    "name": "Rohit Kumar",
-    "age": 42,
-    "gender": "Male",
-    "phone": "9988776655",
-    "height": 73,
-    "email": "rohit.kumar@gmail.com",
-    "address": "Chandigarh",
-    "blood_group": "B+",
-    "medical_history": ["Asthma"],
-    "current_diagnosis": "Breathing Issue",
-    "admitted": true
-  }
+    "p001": {
+        "patient_id": "p001",
+        "name": "Rahul Sharma",
+        "age": 28,
+        "gender": "Male",
+        "phone": "9876543210",
+        "height": 66,
+        "email": "rahul.sharma@gmail.com",
+        "address": "Bangalore, Karnataka",
+        "blood_group": "O+",
+        "medical_history": [
+            "Diabetes"
+        ],
+        "current_diagnosis": "Fever",
+        "admitted": false
+    },
+    "p002": {
+        "patient_id": "p002",
+        "name": "Anita Verma",
+        "age": 35,
+        "gender": "Female",
+        "phone": "9123456780",
+        "height": 68,
+        "email": "anita.verma@gmail.com",
+        "address": "Delhi",
+        "blood_group": "A+",
+        "medical_history": [
+            "Hypertension"
+        ],
+        "current_diagnosis": "Migraine",
+        "admitted": true
+    },
+    "p003": {
+        "patient_id": "p003",
+        "name": "Rohit Kumar",
+        "age": 42,
+        "gender": "Male",
+        "phone": "9988776655",
+        "height": 73,
+        "email": "rohit.kumar@gmail.com",
+        "address": "Chandigarh",
+        "blood_group": "B+",
+        "medical_history": [
+            "Asthma"
+        ],
+        "current_diagnosis": "Breathing Issue",
+        "admitted": true
+    },
+    "P001": {
+        "name": "Raghu",
+        "city": "Punjab",
+        "age": 74,
+        "gender": "male",
+        "height": 1.75,
+        "weight": 55.0,
+        "bmi": 17.96,
+        "verdict": "Underweight"
+    }
 }
