@@ -56,5 +56,15 @@
         "weight": 55.0,
         "bmi": 17.96,
         "verdict": "Underweight"
+    },
+    "P006": {
+        "name": "Mahima",
+        "city": "Punjab",
+        "age": 70,
+        "gender": "male",
+        "height": 2.0,
+        "weight": 55.0,
+        "bmi": 13.75,
+        "verdict": "Underweight"
     }
 }
